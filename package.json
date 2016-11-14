@@ -1,22 +1,8 @@
 {
-  "name": "burger",
+  "name": "sequelizedburger",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ychang21/burger.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ychang21/burger/issues"
-  },
-  "homepage": "https://github.com/ychang21/burger#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
@@ -24,5 +10,20 @@
     "method-override": "^2.3.6",
     "mysql": "^2.12.0",
     "sequelize": "^3.25.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ychang21/sequelizedBurger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ychang21/sequelizedBurger/issues"
+  },
+  "homepage": "https://github.com/ychang21/sequelizedBurger#readme"
 }
