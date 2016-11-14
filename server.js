@@ -35,6 +35,6 @@ app.use('/', burgers_controller);
 
 
 // we set the port of the app
-var PORT = 3000;
-app.listen(process.env.PORT || PORT);
+var PORT = process.env.PORT || 3000;
+app.listen(PORT);
 
