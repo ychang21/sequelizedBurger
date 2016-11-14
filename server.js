@@ -36,5 +36,5 @@ app.use('/', burgers_controller);
 
 // we set the port of the app
 var PORT = 3000;
-app.listen(process.env.JAWSDB_URL || PORT);
+app.listen(process.env.PORT || PORT);
 
