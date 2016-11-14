@@ -13,7 +13,7 @@ var db        = {};
 // } else {
 //   var sequelize = new Sequelize(config.database, config.username, config.password, config);
 // }
-var sequelize = new Sequelize(gfrb60k02713lw86, s905snlgkqrkkxza, ue30ot5khqcg54xq, config);
+var sequelize = new Sequelize("gfrb60k02713lw86", "s905snlgkqrkkxza", "ue30ot5khqcg54xq", config);
 
 fs
   .readdirSync(__dirname)
